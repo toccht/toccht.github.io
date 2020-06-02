@@ -9,11 +9,36 @@ body {
   padding: 0;
 }
 
+footer p {
+  font-size: 60%;
+  text-align: center;
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* margin: 0 auto; */
+  margin-top: 5em;
+  background-color: #E8E8E8;
+  padding: 10px;
+}
+
+#websiteHeader {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #E8E8E8;
+}
+
 #websiteHeader h1 {
-  /*display: inline-block;*/
   margin: 0.67em;
   float: left;
 }
+
+/* Button config */
 
 #websiteHeader a {
   color: inherit;
@@ -29,13 +54,18 @@ body {
 }
 
 #websiteHeader a:hover {
-  background-color: orange;
+  background-color: #E8E8E8;
+  /* background-color: orange; */
 }
 
-#homepageContent p {
-  border-top: 2px solid;
-  margin-left: 21.440px;
+.pageContent {
+  margin-top: 130px;
+}
+
+.pageContent p {
+  /* border-top: 2px solid; */
+  margin-left: 25.013px; 
   padding-top: 10px;
   clear: left;
-  width: 35%;
+  
 }
