@@ -59,13 +59,27 @@ footer {
 }
 
 .pageContent {
-  margin-top: 130px;
+  margin-top: 136px;
+}
+
+.pageContent h1 {
+  margin-top: 25.013px; 
+  margin-left: 50.026px;
+  clear: left;
+  border-bottom: 2px solid;
+  margin-bottom: 0px;
+  width: 20%;
+}
+
+/* Override marin for only homepage content with p tag */
+#homepageContent.pageContent p {
+  margin-left: 25.013px; 
 }
 
 .pageContent p {
   /* border-top: 2px solid; */
-  margin-left: 25.013px; 
-  padding-top: 10px;
+  margin-top: 25.013px; 
+  margin-left: 50.026px;
   clear: left;
   
 }
