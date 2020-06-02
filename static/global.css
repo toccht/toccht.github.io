@@ -1,2 +1,38 @@
 /* This is the CSS file that is loaded into every page */
 @import url('https://fonts.googleapis.com/css?family=Maitree');
+
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color: #D3D3D3
+}
+
+#websiteHeader h1 {
+  /*display: inline-block;*/
+  margin: 0.67em;
+  float: left;
+}
+
+#websiteHeader a {
+  color: inherit;
+  border:;
+  text-decoration: none; /* gets rid of underline */
+  padding: 0.5em;
+  border: 1px solid;
+  border-bottom: 8px solid;
+  border-radius: 16px;
+  margin-right: 0.67em;
+  margin-top: 20.5px;
+  float: left;
+}
+
+#websiteHeader a:hover {
+  background-color: orange;
+}
+
+#homepageContent p {
+  border-top: 2px solid;
+  margin-left: 21.440px;
+  padding-top: 10px;
+  clear: left;
+  width: 35%;
+}
