@@ -33,9 +33,14 @@ h2 {
 }
 
 #navBar {
+  margin-right: 25.013px;
+  margin-bottom: 25.013px;
+  float: right;
+
+  /* # if you want the nav bar on the left side
   margin-left: 301.456px;
-  float: left;
   position: absolute;
+  */
 }
 
 #websiteHeader {
