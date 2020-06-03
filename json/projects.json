@@ -1,0 +1,14 @@
+{
+    "menuItem": [
+        {
+            "menuName": "Test 1",
+            "menuDesc": "This is a test.",
+            "menuURL": "./index.html"
+        },
+        {
+            "menuName": "Test 2",
+            "menuDesc": "This is a test.",
+            "menuURL": "./index.html"
+        }
+    ]
+}
