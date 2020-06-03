@@ -25,6 +25,19 @@ footer {
   padding: 10px;
 }
 
+h2 {
+  margin-top: 5px;
+  margin-bottom: 40px;
+  font-size: 110%;
+  text-align: center;
+}
+
+#navBar {
+  margin-left: 301.456px;
+  float: left;
+  position: absolute;
+}
+
 #websiteHeader {
   overflow: hidden;
   position: fixed;
@@ -49,13 +62,12 @@ footer {
   border-bottom: 8px solid;
   border-radius: 16px;
   margin-right: 0.67em;
-  margin-top: 20.5px;
+  margin-top: 26.5px; /* 20.5 */
   float: left;
 }
 
 #websiteHeader a:hover {
-  background-color: #E8E8E8;
-  /* background-color: orange; */
+  background-color: orange;
 }
 
 .pageContent {
@@ -82,4 +94,35 @@ footer {
   margin-left: 50.026px;
   clear: left;
   
+}
+
+/* This is for the auto typer util */
+@keyframes typing { from { width: 0; } }
+@keyframes hide-caret {
+  from {
+    border-right: .1em solid black;
+  }
+  to {
+    border-color: transparent;
+  }
+}
+
+.typing {
+  border-right: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(19, end),
+             hide-caret 2s step-end;
+}
+
+h1.typing {
+  width: 9.5ch;
+}
+
+h2.typing {
+  width: 10ch;
+}
+
+h3.typing, h4.typing{
+  width: 19ch;
 }
