@@ -1,14 +1,14 @@
 {
-    "menuItem": [
+    "projectItem": [
         {
-            "menuName": "Test 1",
-            "menuDesc": "This is a test.",
-            "menuURL": "./index.html"
+            "projectName": "Trevor Tocchet Photography",
+            "projectDesc": "Freelance photographer.",
+            "projectURL": "www.trevortphoto.com"
         },
         {
-            "menuName": "Test 2",
-            "menuDesc": "This is a test.",
-            "menuURL": "./index.html"
+            "projectName": "Qards",
+            "projectDesc": "Minimalist business cards for the busy professional.",
+            "projectSkills": "HTML, CSS, JavaScript, JSON, PHP"
         }
     ]
 }

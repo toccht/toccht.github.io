@@ -20,7 +20,7 @@ footer {
   bottom: 0;
   width: 100%;
   /* margin: 0 auto; */
-  margin-top: 5em;
+  /* margin-top: 5em; */
   background-color: #E8E8E8;
   padding: 10px;
 }
@@ -30,6 +30,14 @@ h2 {
   margin-bottom: 40px;
   font-size: 110%;
   text-align: center;
+}
+
+h3 {
+  margin-bottom: 0px;
+}
+
+ul {
+  margin: 0px;
 }
 
 #navBar {
@@ -72,31 +80,37 @@ h2 {
 }
 
 #websiteHeader a:hover {
-  background-color: orange;
+  background-color: #EFFEFF;
 }
 
+/* Buffer between page content and header/footer */
 .pageContent {
   margin-top: 136px;
+  margin-bottom: 50px;
+  margin-left: 25.013px;
 }
 
 .pageContent h1 {
   margin-top: 25.013px; 
-  margin-left: 50.026px;
   clear: left;
   border-bottom: 2px solid;
   margin-bottom: 0px;
   width: 20%;
 }
 
-/* Override marin for only homepage content with p tag */
-#homepageContent.pageContent p {
-  margin-left: 25.013px; 
+/* Override margin for projects page content */
+#projectsContent.pageContent {
+  margin-left: 50.026px; 
+}
+
+#homepageContent.pageContent {
+  /*text-align: center;*/
 }
 
 .pageContent p {
   /* border-top: 2px solid; */
   margin-top: 25.013px; 
-  margin-left: 50.026px;
+  /*margin-left: 50.026px;*/
   clear: left;
   
 }
@@ -130,4 +144,47 @@ h2.typing {
 
 h3.typing, h4.typing{
   width: 19ch;
+}
+
+/* Button Icons */
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+/* LinkedIn Button */
+.fa-linkedin {
+  height: 20px;
+  width: 20px;
+  background: #007bb5;
+  color: white;
+}
+
+.fa-envelope {
+  height: 20px;
+  width: 20px;
+  background: #A1A1A1;
+  color: black;
+}
+
+.fa-file-code-o {
+  padding: 0px;
+  padding-left: 4px;
+  height: 11px;
+  width: 11px;
+}
+
+.fa-desktop {
+  padding: 0px;
+  padding-left: 4px;
+  height: 13px;
+  width: 13px;
 }

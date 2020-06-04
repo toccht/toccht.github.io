@@ -6,13 +6,15 @@ $(document).ready(function(){
    	dataType: "json",
 
    	success: function(responseData, status){
-   	 	output = "<ul>";
-   	 	$.each(responseData.menuItem, function(i, menuItem) {
-   	 		output += '<li>' + menuItem.menuName + '</li>';
-   	 		//output += '<li>' + menuItem.menuDesc + '</li>';
+   	 	output = "";
+   	 	$.each(responseData.projectItem, function(i, projectItem) {
+            output += "<h3>" + projectItem.projectName + "</h3>";
+            output += "<ul>";
+   	 		output += "<li>" + projectItem.projectDesc + "</li>";
+            output += "<li><b> Skills used: </b>" + projectItem.projectSkills + "</li>";
+            output += "</ul>";
    	 	});
-
-   	 	output += "</ul>";
+         
    	 	$('#projectsOutput').html(output);
 
  		}, error: function(msg) {
