@@ -1,41 +1,68 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
   <head>
-    <title>Homepage</title>
-    <link rel="stylesheet" href="global.css">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <title>Homepage</title>
+
   </head>
 
   <body>
 
-    <div id="websiteHeader">
+    <h1 class="text-center mt-4">Trevor Tocchet</h1>
 
-      <h1 class="typing">Trevor Tocchet</h1>
+    <p class="text-center">Computer Science Student <a href="https://science.rpi.edu/computer-science" id="link">@RPI</a> </p>
 
-      <div id="navBar">
+    <ul class="nav justify-content-center">
 
-        <a href = "index.html"> Home </a>
-        <a href = "https://www.trevortphoto.com">Portfolio</a>
-        <a href = "projects.html"> Projects </a>
-        <a href = "trevor-tocchet-resume.pdf"> Resume </a>
+      <li class="nav-item">
+        <a href="projects.html" class="btn btn-dark mr-3" role="button">Projects</a>
+      </li>
 
-      </div>
+      <li class="nav-item">
+        <a href="trevor-tocchet-resume.pdf" class="btn btn-dark mr-3" role="button">Resume</a>
+      </li>
 
-    </div>
+      <li class="nav-item">
+        <a href="mailto:toccht@rpi.edu?subject=From Your Website" class="btn btn-dark mr-0" role="button">Contact</a>
+      </li>
+    </ul>
 
-    <div id="homepageContent" class="pageContent">
-      <p> Welcome to my website! I am currently a junior computer science student at Rensselaer Polytechnic Institute (RPI). <br> At school, I am apart of the varsity lacrosse team and volunteer my time with Everybody Wins! Power Lunch Program. <br> In my free time I enjoy photography (portfolio can be viewed above) and spending time with family/friends. <br> Please connect with me via LinkedIn or email to get in touch! </p>
+    <ul class="nav justify-content-center fixed-bottom mb-4">
+      <li class="nav-item">
+        <a href="https://www.linkedin.com/in/trevor-tocchet/" target="_blank" class="fa fa-linkedin-square mr-1" style="font-size:24px; color: #343a40;"></a> 
+      </li>
 
-      <a href="https://www.linkedin.com/in/trevor-tocchet/" target="_blank" class="fa fa-linkedin"></a> 
-      <a href="mailto:toccht@rpi.edu" class="fa fa-envelope"></a>
+      <li class="nav-item">
+        <a href="https://github.com/toccht" target="_blank" class="fa fa-github-square mr-1" style="font-size:24px; color: #343a40;"></a>
+      </li>
 
-    </div>
+      <li class="nav-item">
+        <a href="https://twitter.com/trev_me" target="_blank" class="fa fa-twitter-square mr-0" style="font-size:24px; color: #343a40;"></a>
+      </li>
+
+    </ul>
+
+  
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- Night mode script -->
+    <script src="dark.js"></script>
 
   </body>
 
-  <footer>
-    <p>Trevor Tocchet. All rights reserved. Code for the website can be viewed here<a href = "https://github.com/toccht/toccht.github.io" class="fa fa-desktop"></a></p>
-  </footer>
-  
 </html>

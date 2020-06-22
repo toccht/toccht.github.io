@@ -80,7 +80,8 @@ ul {
 }
 
 #websiteHeader a:hover {
-  background-color: #EFFEFF;
+
+  background-color: #f2a365 /* #EFFEFF; */
 }
 
 /* Buffer between page content and header/footer */
@@ -188,3 +189,24 @@ h3.typing, h4.typing{
   height: 13px;
   width: 13px;
 }
+
+/* Dark Theme */
+
+.dark-mode {
+  background-color: #222831;
+  color: white;
+}
+
+.dark-mode-header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #222831;
+}
+
+.dark-mode-hover:hover {
+  background-color: #f2a365;
+}
+
+
