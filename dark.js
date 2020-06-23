@@ -15,4 +15,20 @@ function darkMode() {
   	/* returns first anchor tag within the document */
 
   	links.classList.toggle("dark-mode-anchor");
+
+  	/* change theme of project cards */ 
+
+  	var cards = document.getElementsByClassName("card bg-light");
+
+  	for(var i = 0; i < cards.length; i++) {
+  		cards[i].classList.add("bg-dark");
+  	}
+
+  	var btns = document.querySelectorAll(".card a.btn");
+
+	btns.forEach(btn=>{
+    	btn.classList.remove("btn-dark");
+    	btn.classList.add("btn-light");
+	});
+
 }
