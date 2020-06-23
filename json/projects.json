@@ -3,12 +3,12 @@
         {
             "projectName": "Trevor Tocchet Photography",
             "projectDesc": "Freelance photographer.",
-            "projectURL": "www.trevortphoto.com"
+            "projectURL": "https://www.trevortphoto.com"
         },
         {
             "projectName": "Qards",
             "projectDesc": "Minimalist business cards for the busy professional.",
-            "projectURL": "www.github.com/toccht"
+            "projectURL": "https://www.github.com/toccht/qards"
         }
     ]
 }
