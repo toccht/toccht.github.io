@@ -12,7 +12,7 @@ $(document).ready(function(){
             output += "<div class='card-body'>";
             output += "<h4 class='card-title'>" + projectItem.projectName + "</h4>";
             output += "<p class='card-text'>" + projectItem.projectDesc + "</p>";
-            output += "<a href=" + projectItem.projectURL + "class='btn btn-light mr-0' role='button'>Project Link</a>"
+            output += "<a href='" + projectItem.projectURL + "'class='btn btn-light mr-0' role='button'>Project Link</a>"
             output += "</div> </div> <br>"
    	 	});
          
