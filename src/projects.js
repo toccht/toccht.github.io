@@ -8,11 +8,12 @@ $(document).ready(function(){
    	success: function(responseData, status){
    	 	output = "";
    	 	$.each(responseData.projectItem, function(i, projectItem) {
-            output += "<h3>" + projectItem.projectName + "</h3>";
-            output += "<ul>";
-   	 		output += "<li>" + projectItem.projectDesc + "</li>";
-            output += "<li><b> Skills used: </b>" + projectItem.projectSkills + "</li>";
-            output += "</ul>";
+            output += "<div class='card bg-dark'>";
+            output += "<div class='card-body'>";
+            output += "<h4 class='card-title'>" + projectItem.projectName + "</h4>";
+            output += "<p class='card-text'>" + projectItem.projectDesc + "</p>";
+            output += "<a href=" + projectItem.projectURL + "class='btn btn-light mr-0' role='button'>Project Link</a>"
+            output += "</div> </div> <br>"
    	 	});
          
    	 	$('#projectsOutput').html(output);
