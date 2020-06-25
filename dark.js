@@ -2,7 +2,7 @@
 
 let hour = new Date().getHours();
 
-if(hour < 8 || hour > 20) {
+if(hour <= 8 || hour >= 20) {
 	darkMode();
 }
 
