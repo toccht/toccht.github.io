@@ -1,5 +1,5 @@
 # Personal Website
-> https://trevortocchet.xyz/
+> https://trevortocchet.com/
 
 Static web site using HTML / CSS / JavaScript
 
